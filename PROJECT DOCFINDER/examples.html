@@ -1,0 +1,45 @@
+<button class="collapsible">Docteur Mekouar Rochdi Azouagh</button>
+<div class="content" style="display: -webkit-box">
+  <ul class="important">
+        <li>Spécialité: Pédiatre</li>
+        <li>Statut: Disponible</li>
+        <li>Nombre de patients en salle d'attente: 12</li>
+        <li>Temps d'attente estimé: </li>
+        <li>Adresse:8 Rue Naceiria Quartier Ancienne Médina </li>
+        <li>Téléphone:0522298944</li>
+    </ul>
+    <div id="googleMap" style="width:50%;height:400px;"></div>
+
+</div>
+function myMap() {
+  var Mekouar = { lat: 33.602229, lng: -7.620911}
+
+  var mapMekouar= {
+      center: Mekouar,
+      zoom:20,
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapMekouar);
+
+var Zair = { lat: 33.578726, lng: -7.636860}
+
+  var mapZair= {
+      center: Zair,
+      zoom:20,
+  };
+var map=new google.maps.Map(document.getElementById("googleMap2"),mapZair);
+var Benkhadra = { lat: 33.568999, lng: -7.626359}
+
+  var mapBenkhadra= {
+      center: Benkhadra,
+      zoom:20,
+  };
+var map=new google.maps.Map(document.getElementById("googleMap3"),mapBenkhadra);
+
+  }
+
+var Boualam = { lat: 33.602229, lng: -7.620911}
+
+  var mapBoualam= {
+      center: Mekouar,
+      zoom:20,
+  };

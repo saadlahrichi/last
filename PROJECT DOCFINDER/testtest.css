@@ -1,0 +1,42 @@
+.full-width {
+  width: 100% !important;
+}
+.contact {
+  background-attachment: fixed;
+}
+.contact .form input[type='text'],
+.contact .form input[type='email'],
+.contact .form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  background: rgba(10, 10, 10, 0.4);
+  color: #fff;
+  margin-bottom: 15px;
+}
+.contact .form textarea {
+  height: 160px;
+  max-height: 160px;
+  max-width: 100%;
+}
+.contact .form button {
+  background: transparent;
+  border: 0;
+}
+.contact .info {
+  margin-top: 50px;
+}
+.contact .info .item .icon {
+  float: left;
+  padding-top: 5px;
+  font-size: 25px;
+  color: #C49B66;
+}
+.contact .info .item .cont {
+  margin-left: 45px;
+  padding-left: 15px;
+  border-left: 1px solid rgba(200, 200, 200, 0.4);
+}
+.contact .info .item .cont h6 {
+  font-size: 14px;
+}

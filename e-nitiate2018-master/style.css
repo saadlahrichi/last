@@ -1,0 +1,32 @@
+*{
+	font-family:'Roboto Condensed', sans-serif;
+	
+}
+h1{
+	text-align:center;
+}
+p{
+	font-size:25px;
+	line-height:150%;
+
+}
+.header-3{
+	font-size:30px;
+	color:#8B008B;
+
+	
+}
+h3,h4{
+	text-transform:uppercase;
+	font-size:22px;
+}
+li{
+	font-size:22px;
+
+}
+ul li{
+	color:#00CED1;
+}
+h1:hover{
+	color:#00CED1;
+}
