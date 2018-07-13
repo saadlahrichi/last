@@ -1,0 +1,77 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+h1{
+	color: black;
+	font-size: 25px;
+}
+
+
+.photos{
+	padding: 0;
+	border: dotted;
+	border-color:#5F9EA0;
+	text-align:left;
+	width: 500px;
+	margin-bottom: 50px;
+
+}
+
+#index-gallery{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#saad{
+	float: left;
+	margin-right: 0;
+}
+
+#nada{
+	float: right;
+	margin-left: 0;
+}
+
+.imgs{
+	float: right;
+
+}
+
+.bio{
+	text-align: left;
+	padding: 0;
+}
+
+.who{
+	font-family: 'Quicksand', sans-serif;
+	margin:50px;
+	margin-top:130px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: dotted;
+	border-color:#5F9EA0;
+}
+
+.who h1{
+	color: black;
+	font-size: 25px;
+	padding-top: 30px;
+
+}
+
+.who h1::after
+{
+	content: "";
+	display: block;
+	margin-top: 05px;
+	margin-left: 520px;
+	margin-right: 520px;
+	border: 2px solid #5F9EA0;
+	margin-bottom: 30px;
+}
